@@ -49,7 +49,7 @@ public class CreandoArchivos {
 		
 		for (int i=0; i <= 5000 ; i++) {
 			unTexto += " - ";
-			unTexto +=  i;
+			unTexto +=  (int) (Math.random() * 5000);
 		}
 
 		for (int i = 0; i < 1; i++) {
