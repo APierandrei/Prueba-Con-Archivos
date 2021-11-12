@@ -66,6 +66,7 @@ public class CreandoArchivos {
 		}
 
 		if (chkFile(ruta) && borrar) {
+			//borrarArchivo
 			borrarArchivo(ruta);
 		}
 
