@@ -1,3 +1,4 @@
+//probando visual studio code
 package filework;
 
 import java.io.*;
@@ -5,7 +6,7 @@ import java.io.*;
 public class CreandoArchivos {
 
 	public static void creandoArchivo(String ruta, String unTexto) throws IOException {
-		File fopen = new File(ruta); // este forma de creación sobreescribe el archivo si existe, pero no puede crear
+		File fopen = new File(ruta); // este forma de creaciï¿½n sobreescribe el archivo si existe, pero no puede crear
 									// las carpeta si no existen previamente.
 
 		FileWriter fw = new FileWriter(fopen);
